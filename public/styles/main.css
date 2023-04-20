@@ -1,0 +1,243 @@
+body {
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+}
+.header .header_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 32px;
+  margin: 0 auto;
+  background-color: #D2D1F1;
+}
+.header .header_container .header_container_container {
+  width: 100%;
+  max-width: 736px;
+  vertical-align: middle;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+}
+.header .header_container_polotno {
+  width: 100%;
+  height: 100%;
+  background-color: #221F1F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.header .header_container_polotno .header_container_nav {
+  width: 1536px;
+  height: 72px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header .header_container_polotno .header_container_nav .burger_menu {
+  border: none;
+  display: block;
+  width: 24px;
+  height: 24px;
+  flex: 0 0 30;
+  position: relative;
+  background-color: #221F1F;
+}
+.header .header_container_polotno .header_container_nav .burger_menu span {
+  display: block;
+  content: "";
+  top: 11px;
+  right: 0px;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s ease 0s;
+}
+.header .header_container_polotno .header_container_nav .burger_menu::before {
+  display: block;
+  content: "";
+  right: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s ease 0s;
+}
+.header .header_container_polotno .header_container_nav .burger_menu::after {
+  display: block;
+  content: "";
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s ease 0s;
+}
+.header .header_container_polotno .header_container_nav .logo {
+  margin: 18px 25px 15px 25px;
+}
+.header .header_container_polotno .header_container_nav .catalog_button {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  width: 127px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+.header .header_container_polotno .header_container_nav .img_cat {
+  margin: 8px 8px 5px 8px;
+}
+.header .header_container_polotno .header_container_nav .txt_cat {
+  margin: 0 auto;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header .header_container_polotno .header_container_nav .container_search_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 717px;
+  height: 18px;
+  gap: 10px;
+  padding: 11px 12px 11px 12px;
+  background-color: white;
+  margin: 16px 0px 16px 25px;
+  border-radius: 3px 0px 0px 3px;
+}
+.header .header_container_polotno .header_container_nav .container_search_nav .search_nav {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.header .header_container_polotno .header_container_nav .but_search {
+  width: 77px;
+  height: 40px;
+  background-color: #00A046;
+  border-radius: 0px 3px 3px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  color: white;
+  margin: 0px 9px 0px 0px;
+}
+.header .header_container_polotno .header_container_nav .container_lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 96px;
+  height: 28px;
+}
+.header .header_container_polotno .header_container_nav .container_lang .en_ru {
+  width: 35px;
+  height: 28px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #797878;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header .header_container_polotno .header_container_nav .container_lang .en_ua {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  width: 62px;
+  height: 28px;
+  border-left: 1px solid #797878;
+}
+.header .header_container_polotno .header_container_nav .container_lang .en_ua .img_ua {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0px 8px 0px 0px;
+}
+.header .header_container_polotno .header_container_nav .container_icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 80px;
+  height: 28px;
+  margin: 0px 0px 0px 25px;
+}
+.header .header_container_polotno .header_container_nav .container_icon .icon_user {
+  margin: 0px 32px 0px 0px;
+}
+.header .header_container_polotno .header_container_nav .header_container_nav {
+  font-size: 25px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+.main .main_container_polotno {
+  width: 100%;
+  height: 100%;
+}
+.main .main_container_polotno .main_container_container {
+  margin: 0 auto;
+  width: 1536px;
+  height: 500px;
+  border: 1px solid black;
+}
+.main .main_container_polotno .main_container_container .title_main {
+  text-align: center;
+  font-size: 18px;
+  color: #696996;
+  font-weight: 700;
+}
+.main .main_container_polotno .main_container_container .txt_main {
+  text-align: center;
+  align-items: center;
+  color: #0303a4;
+  font-size: 16px;
+  font-weight: 400;
+}
+.main .main_container_polotno .main_container_container .about_product_main {
+  color: #530da3;
+  font-size: 16px;
+  font-weight: 400;
+}
+.main .main_container_polotno .main_container_container .reviews_main {
+  color: #0303a4;
+  font-size: 16px;
+  font-weight: 700;
+}
+.main .main_container_polotno .main_container_container .img_main {
+  width: 250px;
+  height: 250px;
+}/*# sourceMappingURL=main.css.map */

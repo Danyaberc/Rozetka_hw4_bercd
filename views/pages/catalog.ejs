@@ -1,0 +1,50 @@
+<% let text=` <p>
+   quaerat
+
+   </p>
+   <p>
+      alias
+      perspiciatis reiciendis nih reiciendis nihreiciendis nih reiciendis nihreiciendis nihreiciendis nih
+   </p>
+   `
+   %>
+   <% let title='НОВИЙ КАТАЛОГ ' %>
+
+      <!DOCTYPE html>
+      <html lang="en">
+
+      <%- include('../inc/head') %>
+
+         <body>
+            <div class="wrapper">
+               <%- include('../inc/header') %>
+                  <div class="main">
+                     <div class="main_container_polotno">
+                        <div class="main_container_container">
+                           <div class="title_main">
+                              <%=title%>
+                           </div>
+                           <hr>
+                           <div class="txt_main">
+                              <%=text %>
+                           </div>
+                           <div class="img_main">
+                              <img src="/img/main/01.svg" alt="kros" class="img_main">
+                           </div>
+                           <hr>
+                           <div class="about_product_main">
+                              <%=text %>
+                           </div>
+                           <hr>
+                           <div class="reviews_main">
+                              <%=text %>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <%- include('../inc/footer') %>
+            </div>
+
+         </body>
+
+      </html>
