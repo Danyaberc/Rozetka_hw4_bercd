@@ -2,6 +2,14 @@ body {
   font-family: Roboto;
 }
 
+li {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -219,6 +227,8 @@ a {
   font-size: 18px;
   color: #696996;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
 }
 .main .main_container_polotno .main_container_container .txt_main {
   text-align: center;

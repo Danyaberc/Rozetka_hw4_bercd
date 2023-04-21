@@ -1,73 +1,68 @@
-<% let menu=[{ title:'', url:'/user'}, { title:'', url:'/bucket' }] %>
-   <% let cat=[{title:'',url:'/knife'},{title:'',url:'fork'}]%>
-      <div class="header">
-         <div class="header_container">
-            <div class="header_container_container">
-               ВЕСНЯНИЙ МОДНИЙ РОЗПРОДАЖ ДО 40%
-            </div>
-
-         </div>
-         <div class="header_container_polotno">
-            <div class="header_container_nav">
-               <a class="burger_menu_link" href="burger">
-                  <button class="burger_menu" type="button">
-                     <span></span>
-                  </button>
-               </a>
-               <div class="logo">
-                  <img src="/img/header/02.svg" alt="logo">
-               </div>
-               <% cat.forEach(item=>{%>
-
-                  <a class="link_cat" href="/catalog">
-                     <button class="catalog_button" type="button">
-                        <div class="img_cat">
-                           <img src="/img/header/03.svg" alt="logo">
-                        </div>
-                        <div class="txt_cat">
-                           Каталог
-                        </div>
-                     </button>
-                  </a>
-                  <%})%>
-                     <div class="container_search_nav">
-                        <div class="lupa_nav">
-                           <img src="/img/header/04.svg" alt="lupa">
-                        </div>
-
-                        <input type="text" class="search_nav" placeholder="Пошук">
-                        <div class="micro_nav">
-                           <img src="/img/header/05.svg" alt="micro">
-                        </div>
-
-                     </div>
-                     <a class="link_search" href="search">
-                        <button class="but_search" type="button">Знайти</button>
-                     </a>
-                     <div class="container_lang">
-                        <div class="en_ru">RU</div>
-                        <div class="en_ua">
-                           <div class="img_ua">
-                              <img src="/img/header/06.svg" alt="UAFLAG">
-                           </div>
-                           UA
-                        </div>
-                     </div>
-
-                     <div class="container_icon">
-                        <a class="link_user" href="/about">
-                           <div class="icon_user">
-                              <img src="/img/header/07.svg" alt="user">
-                           </div>
-                        </a>
-                        <a class="link_backet" href="/reviews">
-                           <div class="icon_backet">
-                              <img src="/img/header/08.svg" alt="backet">
-                           </div>
-                        </a>
-                     </div>
-
-            </div>
-
-         </div>
+<div class="header">
+   <div class="header_container">
+      <div class="header_container_container">
+         ВЕСНЯНИЙ МОДНИЙ РОЗПРОДАЖ ДО 40%
       </div>
+
+   </div>
+   <div class="header_container_polotno">
+      <div class="header_container_nav">
+         <a class="burger_menu_link" href="burger">
+            <button class="burger_menu" type="button">
+               <span></span>
+            </button>
+         </a>
+         <div class="logo">
+            <img src="/img/header/02.svg" alt="logo">
+         </div>
+         <a class="link_cat" href="/catalog">
+            <button class="catalog_button" type="button">
+               <div class="img_cat">
+                  <img src="/img/header/03.svg" alt="logo">
+               </div>
+               <div class="txt_cat">
+                  Каталог
+               </div>
+            </button>
+         </a>
+         <div class="container_search_nav">
+            <div class="lupa_nav">
+               <img src="/img/header/04.svg" alt="lupa">
+            </div>
+
+            <input type="text" class="search_nav" placeholder="Пошук">
+            <div class="micro_nav">
+               <img src="/img/header/05.svg" alt="micro">
+            </div>
+
+         </div>
+         <a class="link_search" href="search">
+            <button class="but_search" type="button">Знайти</button>
+         </a>
+         <div class="container_lang">
+            <div class="en_ru">RU</div>
+            <div class="en_ua">
+               <div class="img_ua">
+                  <img src="/img/header/06.svg" alt="UAFLAG">
+               </div>
+               UA
+            </div>
+         </div>
+
+         <div class="container_icon">
+            <a class="link_user" href="/about">
+               <div class="icon_user">
+                  <img src="/img/header/07.svg" alt="user">
+               </div>
+            </a>
+            <a class="link_backet" href="/reviews">
+               <div class="icon_backet">
+                  <img src="/img/header/08.svg" alt="backet">
+               </div>
+            </a>
+         </div>
+
+      </div>
+
+   </div>
+</div>
